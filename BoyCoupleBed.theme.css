@@ -1,4 +1,4 @@
-/**
+**
  * @name Boy Couple Bed
  * @author Gibbu#1211
  * @version 2.0.0
@@ -20,6 +20,8 @@
 @import url('https://nyri4.github.io/Discolored/main.css');
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://nyri4.github.io/Discolored/main.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
 
 :root {
   --background-image: url('https://i.imgur.com/XSJXFpc.jpg');
@@ -69,4 +71,3 @@
 }
 
 /* Any custom CSS below here */
-

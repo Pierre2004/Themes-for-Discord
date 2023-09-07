@@ -48,7 +48,7 @@
   --rs-dnd-color: #f04747;
   --rs-offline-color: #636b75;
   --rs-streaming-color: #643da7;
-  --rs-phone-visible: block;
+  --rs-phone-visible: none;
 }
 
 /* Any custom CSS below here */

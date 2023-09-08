@@ -1,5 +1,5 @@
 /**
- * @name Pokemon
+ * @name Pokemon Sleep Pokeball
  * @author Gibbu#1211
  * @version 2.0.0
  * @description Display your picture of choice with adjustable blur and brightness.
@@ -24,7 +24,7 @@
   --background-image: url('https://i.imgur.com/K9LDGRR.jpg');
   --background-image-blur: 0px;
   --background-image-size: cover;
-  --background-image-position: center;
+  --background-image-position: center left;
   --popout-image: url('https://i.imgur.com/K9LDGRR.jpg');
   --popout-image-blur: 0px;
   --popout-image-size: cover;
@@ -68,5 +68,3 @@
 }
 
 /* Any custom CSS below here */
-
-

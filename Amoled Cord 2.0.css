@@ -1,108 +1,58 @@
-@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+/**
+    * @name AMOLED-Cord
+    * @version 2.0
+    * @description A theme that's nice on your eyes.. lights out baby!
+    * @author LuckFire#4800
+    *
+    * @website https://github.com/LuckFire
+    * @source https://github.com/LuckFire/amoled-cord/tree/main/src
+**/
+
+@import url('https://luckfire.github.io/amoled-cord/src/support/betterdiscord/compiled.css');
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://nyri4.github.io/Discolored/main.css');
 @import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
-
 :root {
-  --background-image: transparent;
-  --background-image-blur: 0px;
-  --background-image-size: cover;
-  --background-image-position: center;
-  --popout-image: transparent;
-  --popout-image-blur: 0px;
-  --popout-image-size: cover;
-  --popout-image-position: center;
-  --overlay-image: var(--background-image);
-  --overlay-image-blur: 0px;
-  --overlay-image-size: cover;
-  --overlay-image-position: center;
-  --home-button-image: url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg');
-  --home-button-size: cover;
-  --home-button-position: center;
-  --serverlist-brightness: 1;
-  --left-brightness: 1;
-  --middle-brightness: 1;
-  --right-brightness: 1;
-  --overlay-brightness: 1;
-  --gradient-primary: 0,0,0;
-  --gradient-secondary: 0,0,0;
-  --link-colour: #00b0f4;
-  --scrollbar-colour: rgba(255,255,255,0.05);
-  --gradient-direction: 320deg;
-  --tint-colour: 255,51,159;
-  --tint-brightness: 0;
-  --font: gg sans;
-  --window-padding: 20px;
-  --window-roundness: 10px;
-  --update-notice-1: none;
-  --rs-small-spacing: 2px;
-  --rs-medium-spacing: 2px;
-  --rs-large-spacing: 2px;
-  --rs-small-width: 2px;
-  --rs-medium-width: 2px;
-  --rs-large-width: 2px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: #43b581;
-  --rs-idle-color: #faa61a;
-  --rs-dnd-color: #f04747;
-  --rs-offline-color: #636b75;
-  --rs-streaming-color: #643da7;
-  --rs-phone-visible: none;
+    /* --------- BASE THEME --------- */
+    --blurple-replace: #7289DA;
+    --background-primary: rgb(8, 8, 8);
+    --background-secondary: rgb(5, 5, 5);
+    --background-secondary-alt: rgb(15, 15, 15);
+    --background-tertiary: black;
+    --background-accent: rgb(15, 15, 15);
+    --background-floating: black;
+    --userarea-background: var(--background-tertiary);
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+    --channels-default: #969696;
+    --channeltextarea-background: rgb(25, 25, 25);
+    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    --activity-card-background: #0f0f0f;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: rgb(75, 75, 75);
+    --background-modifier-hover: rgba(50, 50, 50, 0.16);
+    --background-modifier-active: rgba(50, 50, 50, 0.24);
+    --background-modifier-selected: rgba(50, 50, 50, 0.32);
+    --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+    --text-link: #00b0f4;
+    --text-normal: #dcddde;
+    --text-muted: #969696;
+    --deprecated-panel-background: #292b2f;
+    --deprecated-card-bg: rgba(32, 34, 37, 0.6);
+    --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+    --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+    --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+    --background-accent-1: rgb(15, 15, 15, 0.1);
+    --background-accent-3: rgb(15, 15, 15, 0.3);
+    --background-floating-2: rgba(0, 0, 0, 0.2);
 }
-
-/* Any custom CSS below here */
-
-
-@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
-@import url('https://nyri4.github.io/Discolored/main.css');
-@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
-
-:root {
-  --background-image: transparent;
-  --background-image-blur: 0px;
-  --background-image-size: cover;
-  --background-image-position: center;
-  --popout-image: transparent;
-  --popout-image-blur: 0px;
-  --popout-image-size: cover;
-  --popout-image-position: center;
-  --overlay-image: var(--background-image);
-  --overlay-image-blur: 0px;
-  --overlay-image-size: cover;
-  --overlay-image-position: center;
-  --home-button-image: url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg');
-  --home-button-size: cover;
-  --home-button-position: center;
-  --serverlist-brightness: 1;
-  --left-brightness: 1;
-  --middle-brightness: 1;
-  --right-brightness: 1;
-  --overlay-brightness: 1;
-  --gradient-primary: 0,0,0;
-  --gradient-secondary: 0,0,0;
-  --link-colour: #00b0f4;
-  --scrollbar-colour: rgba(255,255,255,0.05);
-  --gradient-direction: 320deg;
-  --tint-colour: 255,51,159;
-  --tint-brightness: 0;
-  --font: gg sans;
-  --window-padding: 0px;
-  --window-roundness: 0px;
-  --update-notice-1: none;
-  --rs-small-spacing: 2px;
-  --rs-medium-spacing: 2px;
-  --rs-large-spacing: 2px;
-  --rs-small-width: 2px;
-  --rs-medium-width: 2px;
-  --rs-large-width: 2px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: #43b581;
-  --rs-idle-color: #faa61a;
-  --rs-dnd-color: #f04747;
-  --rs-offline-color: #636b75;
-  --rs-streaming-color: #643da7;
-  --rs-phone-visible: none;
-}
-
-/* Any custom CSS below here */

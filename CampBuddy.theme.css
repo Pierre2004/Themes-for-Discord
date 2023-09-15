@@ -1,24 +1,12 @@
-/**
- * @name Camp Buddy
- * @author Gibbu#1211
- * @version 2.0.0
- * @description Display your picture of choice with adjustable blur and brightness.
- * @source https://github.com/DiscordStyles/FrostedGlass
- * @invite ZHthyCw
- * @donate https://paypal.me/IanRGibson
- * @website https://gibbu.me
- * @authorId 174868361040232448
- * @BDEditor Frosted Glass
-*/
 @import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://nyri4.github.io/Discolored/main.css');
-@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
 
 :root {
   --background-image: url('https://i.imgur.com/ZBaKRZq.jpg');
   --background-image-blur: 0px;
-  --background-image-size: 100%;
+  --background-image-size: 112%;
   --background-image-position: center;
   --popout-image: url('https://i.imgur.com/vhbxH1P.jpg');
   --popout-image-blur: 0px;
@@ -61,6 +49,5 @@
   --rs-streaming-color: #643da7;
   --rs-phone-visible: none;
 }
+
 /* Any custom CSS below here */
-
-

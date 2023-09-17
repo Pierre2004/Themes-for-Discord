@@ -8,7 +8,7 @@
     * @source https://github.com/LuckFire/amoled-cord/tree/main/src
 **/
 
-@import url('https://luckfire.github.io/amoled-cord/src/support/betterdiscord/compiled.css');
+@import url('https://luckfire.github.io/amoled-cord/src/amoled-cord.css');
 @import url('https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.theme.css');
 @import url('https://nyri4.github.io/Discolored/main.css');
 :root {

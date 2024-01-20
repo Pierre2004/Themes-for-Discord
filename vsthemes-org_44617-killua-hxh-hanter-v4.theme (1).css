@@ -1,0 +1,27 @@
+/**
+ * @name Killua HxH Hanter v.4
+ * @author TereruNaYo
+ * @version auto updates
+ * @description Theme was created in generator https://vsthemes.org/generator/
+ * @source https://vsthemes.org/en/skins/discord/44617-killua-hxh-hanter-v4.html
+ * @authorLink https://vsthemes.org/user/TereruNaYo/
+ * @authorId 65141
+*/
+@import url(https://vsthemes.org/uploads/generator/client/BasicBackground.css);
+:root {
+    --transparencycolor: 0,0,0;
+    --transparencyalpha: 0.05;
+    --messagetransparency: 0.3;
+    --guildchanneltransparency: 0.2;
+    --memberlistransparency: 0.2;
+    --accentcolor: 109,235,238;
+    --background: url("https://vsthemes.org/uploads/posts/2021-09/1632938265_9dd307d572863410e4dba078396d1444.webp");
+    --backdrop: rgba(0,0,0,0.2);
+    --backgroundblur: 0px;
+    --popoutblur: 0px;
+    --backdropblur: 0px;
+    --version1_0_5:none;
+    --backgroundsize: cover;
+    --popoutsize: cover;
+    --backdropsize: cover;
+}

@@ -4,19 +4,19 @@
 @import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
 
 :root {
-  --background-image: url('https://i.imgur.com/frcNHQp.jpg');
+  --background-image: url('https://i.imgur.com/1Z1CcFP.png');
   --background-image-blur: 0px;
   --background-image-size: 110%;
   --background-image-position: center;
-  --popout-image: url('https://i.imgur.com/79Pk5oZ.jpg');
+  --popout-image: url('https://i.imgur.com/1Z1CcFP.png');
   --popout-image-blur: 0px;
   --popout-image-size: 180%;
   --popout-image-position: center;
-  --overlay-image: url('https://i.imgur.com/qS2sLBU.jpg');
+  --overlay-image: url('https://i.imgur.com/1Z1CcFP.png');
   --overlay-image-blur: 0px;
   --overlay-image-size: 130%;
   --overlay-image-position: center;
-  --home-button-image: url('https://i.imgur.com/5DPBG52.jpg');
+  --home-button-image: url('https://i.imgur.com/1Z1CcFP.png');
   --home-button-size: 150%;
   --home-button-position: center;
   --serverlist-brightness: 0.5;
